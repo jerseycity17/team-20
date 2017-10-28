@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #8c4a7f;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #aa5e9d;
+    color: #f1f1f1;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+
+
+
+
+    #blog {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#blog td, #blog th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#blog tr:nth-child(even){background-color: #f2f2f2;}
+
+#blog tr:hover {background-color: #ddd;}
+
+#blog th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color:#black}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+      <img src="http://familypromise.org/wp-content/themes/wideeyecreative/images/logo.png" >
+</div>
+
+<div class="topnav">
+  <a href="#">Homepage</a>
+  <a href="#">Blog</a>
+      <a href="#">(2) Notifications</a>
+    <a href="#">Logout</a>
+</div>
+
+</body>
+</html>
+
+	
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+</style>
+</head>
+
+<body>
+
+<table id="blog">
+  <tr>
+    <th>Forums</th>
+    <th>Community</th>
+    <th># of Comments</th>
+  </tr>
+  <tr>
+    <td>Local Soup Kitchens</td>
+    <td>Bergen County</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Part-Time Job Opportunities</td>
+    <td>Bergen County</td>
+    <td>58</td>
+  </tr>
+  <tr>
+    <td>Local Shelters</td>
+    <td>Bergen County</td>
+    <td>101</td>
+  </tr>
+  <tr>
+    <td>Thrift Stores</td>
+    <td>Bergen County</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Cheap Reliable Car Repair</td>
+    <td>Bergen County</td>
+    <td>73</td>
+  </tr>
+  <tr>
+    <td>Community Showers</td>
+    <td>Bergen County</td>
+    <td>42</td>
+  </tr>
+  <tr>
+    <td>Group Therapy for Drug and Alcohol Abuse</td>
+    <td>Bergen County</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Mental Health Issues</td>
+    <td>Bergen County</td>
+    <td>45</td>
+  </tr>
+  <tr>
+    <td>Free YMCA Open Gym</td>
+    <td>Bergen County</td>
+    <td>8</td>
+  </tr>
+</table>
+</body>
+</html>
